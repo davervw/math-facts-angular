@@ -21,20 +21,23 @@ export class GameComponent {
     let elm: HTMLInputElement = this.display.nativeElement;
     //console.log(n);    
     if (n == -2) {
-      this.result = (this.a * this.b).toString() === elm.value
+      this.result = (this.a * this.b).toString() + "_" === elm.value
         ? "correct"
         : "try again";
       if (this.result === "correct") {
         this.a = Math.floor(Math.random()*13);
         this.b = Math.floor(Math.random()*13);
-        elm.value = "";
+        elm.value = "_";
       }
     } else {
-      this.result = "";
+      if (this.result != "") {
+        this.result = "";
+        elm.value = "_";
+      }
       if (n >= 0)
-        elm.value += n.toString();
+        elm.value = elm.value.slice(0, elm.value.length - 1) + n.toString() + "_";
       else if (n == -1 && elm.value.length > 0)
-        elm.value = elm.value.slice(0, elm.value.length - 1);
+        elm.value = elm.value.slice(0, elm.value.length - 2) + "_";
     }
   }
 }
