@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { DisplayComponent } from './display/display.component';
 import { GameComponent } from './game/game.component';
 import { KeypadComponent } from './keypad/keypad.component';
-import { DisplayComponent } from './display/display.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +12,6 @@ import { DisplayComponent } from './display/display.component';
     DisplayComponent,
     GameComponent,
     KeypadComponent,
-    DisplayComponent
   ],
   imports: [
     BrowserModule

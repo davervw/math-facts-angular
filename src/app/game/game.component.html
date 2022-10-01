@@ -1,7 +1,9 @@
-<p>Math Facts Game</p>
+<p><b>Math Facts Game</b></p>
 
 <p>{{a}} x {{b}} = <app-display [value]="answer"></app-display></p>
 
 <app-keypad (press)="onPress($event)"></app-keypad>
 
-<p>{{result}}</p>
+<p>{{result==""?"&nbsp;":result}}</p>
+
+<small>davevw.com</small>

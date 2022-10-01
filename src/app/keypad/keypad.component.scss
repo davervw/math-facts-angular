@@ -4,9 +4,24 @@ td {
 }
 
 button {
-    width: 45px;
-    height: 45px;
+    width: 100%;
+    max-width: 150px;
     background: #CCCCCC;
     color: #000000;
     font-size: 32px;
+    font-weight: normal;
+    height: 50px;
+}
+
+tr {
+    width: 100%;
+}
+
+td {
+    width: 30%;
+}
+
+table {
+    width: 100%;
+    max-width: 500px;
 }
