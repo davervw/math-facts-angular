@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">math-facts</string>
+    <string name="title_activity_main">math-facts</string>
+    <string name="package_name">com.davevw.mathfacts</string>
+    <string name="custom_url_scheme">com.davevw.mathfacts</string>
+</resources>
