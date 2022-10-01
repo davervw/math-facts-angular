@@ -5,18 +5,20 @@ import { AppComponent } from './app.component';
 import { DisplayComponent } from './display/display.component';
 import { GameComponent } from './game/game.component';
 import { KeypadComponent } from './keypad/keypad.component';
+import { DisplayComponent } from './display/display.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DisplayComponent,
     GameComponent,
-    KeypadComponent
+    KeypadComponent,
+    DisplayComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [GameComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
