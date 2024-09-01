@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "math-facts:build:production"
+              "buildTarget": "math-facts:build:production"
             },
             "development": {
-              "browserTarget": "math-facts:build:development"
+              "buildTarget": "math-facts:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "math-facts:build"
+            "buildTarget": "math-facts:build"
           }
         },
         "test": {
