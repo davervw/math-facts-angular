@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-keypad',
-  templateUrl: './keypad.component.html',
-  styleUrls: ['./keypad.component.scss']
+    selector: 'app-keypad',
+    templateUrl: './keypad.component.html',
+    styleUrls: ['./keypad.component.scss'],
+    standalone: false
 })
 export class KeypadComponent {
 

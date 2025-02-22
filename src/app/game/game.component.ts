@@ -2,9 +2,10 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 import { DisplayComponent } from '../display/display.component';
 
 @Component({
-  selector: 'app-game',
-  templateUrl: './game.component.html',
-  styleUrls: ['./game.component.scss']
+    selector: 'app-game',
+    templateUrl: './game.component.html',
+    styleUrls: ['./game.component.scss'],
+    standalone: false
 })
 export class GameComponent {
 
