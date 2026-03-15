@@ -5,7 +5,8 @@
     "@angular/forms": "^20.3.18",
     "@angular/platform-browser-dynamic": "^20.3.18",
     "@capacitor/android": "4.3",
-    "typescript": "5.8"
+    "typescript": "5.8",
+    "zone.js": "^0.15.0"
   },
   "devDependencies": {
     "@angular/build": "^20.3.20"
