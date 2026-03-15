@@ -1,11 +1,13 @@
 {
   "dependencies": {
-    "@angular-devkit/build-angular": "^19.2.22",
-    "@angular/cli": "^19.2.22",
-    "@angular/core": "^19.2.20",
-    "@angular/forms": "^19.2.20",
-    "@angular/platform-browser-dynamic": "^19.2.20",
+    "@angular/cli": "^20.3.20",
+    "@angular/core": "^20.3.18",
+    "@angular/forms": "^20.3.18",
+    "@angular/platform-browser-dynamic": "^20.3.18",
     "@capacitor/android": "4.3",
     "typescript": "5.8"
+  },
+  "devDependencies": {
+    "@angular/build": "^20.3.20"
   }
 }
