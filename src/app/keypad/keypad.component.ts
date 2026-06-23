@@ -1,9 +1,10 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, EventEmitter, Output, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
     selector: 'app-keypad',
     templateUrl: './keypad.component.html',
     styleUrls: ['./keypad.component.scss'],
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class KeypadComponent {

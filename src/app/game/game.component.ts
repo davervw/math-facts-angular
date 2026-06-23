@@ -1,10 +1,11 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
+import { Component, ViewChild, ElementRef, ChangeDetectionStrategy } from '@angular/core';
 import { DisplayComponent } from '../display/display.component';
 
 @Component({
     selector: 'app-game',
     templateUrl: './game.component.html',
     styleUrls: ['./game.component.scss'],
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class GameComponent {
